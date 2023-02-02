@@ -13,5 +13,5 @@ def does_contain_faces(image_url: str) -> requests.Response:
 
 
 @router.get("/is_same_person")
-def is_same_person(first_image_url: str, second_image_url: str):
+def is_same_person(first_image_url: str, second_image_url: str) -> requests.Response:
     pass
